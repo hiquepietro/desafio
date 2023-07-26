@@ -8,12 +8,14 @@ import { EmpresaComponent } from './empresa/empresa.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FornecedorComponent } from './fornecedor/fornecedor.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmpresaComponent,
-    FornecedorComponent
+    FornecedorComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
